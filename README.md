@@ -1,18 +1,39 @@
-# Polar Bear
-An open source minimal theme for Jekyll, ideal for blogging.
+## Webjeda Hagura Theme
 
-View the demo at http://diezcami.github.io/polar-bear-theme
+[**Demo**](http://webjeda.com/hagura)
 
-## Contribute
-Please submit **open issues** for bugs or TBA features that haven't been documented yet! Feel free to submit pull requests for any existing issues.
+Hagura is a theme made for blogs with long text paragraphs. Made to be easy on eyes as well with a switchable theme.
+
+Suitable fonts are selected for better readability. Since the theme is created for smartphone reading, the theme is very light and it loads instantly even on a slow data connection.
+
+The theme comes with pre-installed analytics, disqus and html compressor. But make sure you change key parameters in the _config.yml file.
+
+
+
+## Installation
+* Fork the repository
+* Go to settings and set Github Pages source as master.
+* Your new site should be ready at https://username.github.io/hagura/
+
+Watch my video on instlallation
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/T2nx6tj-ZH4?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+
+Default theme will look like this
+
+![webjeda gatok jekyll theme](http://webjeda.com/hagura/images/hagura-1.png)
+
+
+This theme is responsive.
+
+![webjeda gatok responsive jekyll theme](http://webjeda.com/hagura/images/hagura-responsive.png)
+
+
+
+## Development
+Make changes to the **master** branch and create a pull request. Do not use **gh-pages** branch as it is used to host the theme.
+
 
 ## License
-The MIT License (MIT)
-
-Copyright (c) 2015 Camille Diez
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+MIT License 
