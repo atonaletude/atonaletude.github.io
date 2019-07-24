@@ -1,34 +1,36 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	{%- include head.html -%}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+<!--   <link href="https://fonts.googleapis.com/css?family=Lato:900|Work+Sans" rel="stylesheet"> -->
+  <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
+  {% seo %}
 </head>
-<body>
-	<main class="container">
-		<section class="about">
-			<img src="{{ "/assets/portfolio.png" | relative_url }}" alt="{{ site.plainwhite.name }}">
-			<h2>{{ site.plainwhite.name }}</h2>
-			<p class="tagline">{{ site.plainwhite.tagline }}</p>
-			<ul class="social">
-				<a href="https://github.com/{{ site.plainwhite.social_links.github }}"><li><i class="icon-github-circled"></i></li></a>
-				<a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}"><li><i class="icon-linkedin-squared"></i></li></a>
-				<a href="https://twitter.com/{{ site.plainwhite.social_links.twitter }}"><li><i class="icon-twitter-squared"></i></li></a>
-			</ul>
-			<p>&copy; 2019</p>
-		</section>
-		<section class="content">
-			{{ content }}
-		</section>
-	</main>
-	{%- if site.plainwhite.analytics_id -%}
-	<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.plainwhite.analytics_id }}"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
+<body style="background-color: rgb(255, 255, 255)">
+ <script async src="{{site.baseurl}}/js/theme.min.js"></script>
+  <header>
+      <a href="{{site.baseurl}}/"><div class="home"></div></a>
+  </header>
 
-		gtag('config', '{{ site.plainwhite.analytics_id }}');
-	</script>
-	{%- endif -%}
+    <main>
+    <article>
+    {{ content }}
+    </article>
+    </main>
+
+<footer>
+    <div class="links">
+        <a href="{{site.baseurl}}/about/">About</a>
+        <a href="{{site.baseurl}}/contact/">Contact</a>
+        <a class="theme" onclick="theme()">Dark/Light</a>
+    </div>
+    <p class="copy"><small>Copyrights by {{site.title}} | Developed by <a href="http://webjeda.com">webjeda</a></small></p>
+</footer>
+{% include analytics.html %}
 </body>
 </html>
