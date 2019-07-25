@@ -16,9 +16,9 @@ collections:
 
 social:
     - icon: fa-twitter
-      link: "#"
+      link: "https://twitter.com/mainebethune"
     - icon: fa-linkedin
-      link: "#"
+      link: "https://www.linkedin.com/in/jermainebethune/"
     - icon: fa-stack-exchange
       link: "#"
     - icon: fa-github
@@ -31,12 +31,12 @@ share:
 urls:
     - text: About Me
       url: /about/
-    - text: My Projects
-      url: /projects/
-    - text: XML Feed
-      url: /feed.xml
+    # - text: My Projects
+    #   url: /projects/
+    # - text: XML Feed
+    #   url: /feed.xml
 
-url: "https://agusmakmun.github.io"
+url: "https://atonaletude.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20
