@@ -3,7 +3,7 @@ description: Cybersecurity Musings
 author: Jermaine Bethune
 github: https://github.com/atonaletude
 about: I'm a CyberSecurity enthusist .
-disqus_shortname: stackproblems
+# disqus_shortname: stackproblems
 google_analytics: UA-XXXXXXXX-Y
 avatar_url: /static/img/maine_picture.jpeg
 enableTags: true
